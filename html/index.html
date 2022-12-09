@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>poyEtkinlik</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0a8b1132b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="maincon">
+      <h2 class="softetkinlik">Poyraz Etkinlik Paneli</h2>
+      <ul class="kategori">
+        <li class="underline">
+          <button class="nobg hepsi" data-cid="23">Hepsi</button>
+        </li>
+        <li class="underline"><button class="nobg gelecek">Gelecek</button></li>
+        <li class="underline"><button class="nobg eski">Geçmiş</button></li>
+      </ul>
+      <div class="line1"></div>
+      <div class="events"></div>
+      <div class="detaylar">
+        <div class="fulldiv">
+          <h4 class="dtatitle">Etkinlik Detayları</h4>
+          <button class="exit"><i class="fa-solid fa-xmark"></i></button>
+          <div class="eventback" id="opt"></div>
+          <h3 class="detaylitit">Depo SAvalsari SDmk</h3>
+          <div class="borderline">
+            <p class="eventdesc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+              quibusdam consequuntur commodi iusto. Maiores voluptas velit,
+              praesentium et ipsum iste? Facere ab suscipit, eveniet
+              necessitatibus similique numquam illum praesentium consectetur!
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+              fuga facilis atque laudantium harum adipisci, alias corrupti ab
+              pariatur nobis mollitia natus? Temporibus, a est labore laboriosam
+              officiis sunt accusantium!Lorem Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Aperiam odio ipsum ut inventore
+              accusamus nam quibusdam placeat corrupti veniam officia quo,
+              dignissimos repellendus similique libero, quam a perspiciatis
+              magnam facilis? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Quam, ut doloribus facere, esse sit tenetur pariatur
+              officiis optio nostrum accusamus molestiae. Repellendus saepe
+              expedita corporis quae omnis, nemo perspiciatis ex? Lorem, ipsum
+              dolor sit amet consectetur adipisicing elit. Alias, neque fuga.
+              Consequuntur, maxime dolorem accusamus, ipsam reprehenderit sed
+              nulla, fuga natus aspernatur vero voluptatem aut voluptatum! Atque
+              mollitia animi reprehenderit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Vero quos unde enim recusandae magni
+              maxime reprehenderit laudantium ex tempora voluptatum obcaecati
+              dolorum, modi ullam excepturi cupiditate tempore similique. Alias,
+              fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Eius, nesciunt recusandae veniam saepe a quibusdam ea cumque cum
+              incidunt, commodi quaerat dolore temporibus aliquid laboriosam
+              corporis? Neque vero quas odio! Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Explicabo, modi quasi? Doloribus
+              nulla esse alias praesentium consequuntur eligendi! Quidem nostrum
+              quis asperiores temporibus eligendi consectetur architecto, eius
+              expedita tenetur magnam.
+            </p>
+          </div>
+          <button class="markgps isaret" id="atis">
+            <i class="fa-solid fa-map-location-dot dotdot"></i>
+            <h2 class="gpsisaret">GPS İşaretle</h2>
+          </button>
+          <h3 class="tarih">Etkinlik Tarihi</h3>
+          <p class="usertarih">24.03.2022 - 21:50</p>
+          <h3 class="organiser">Düzenleyenler</h3>
+          <p class="userganiser">kajudge#6126 & poyraz#8455</p>
+        </div>
+      </div>
+      <div class="eventekle">
+        <h4 class="dtatitle">Etkinlik Ekle</h4>
+        <input
+          type="text"
+          class="eventismi"
+          placeholder="Etkinlik İsmi Girin"
+        />
+        <input
+          type="text"
+          class="eventfotosu"
+          placeholder="Foto Linki Girin"
+        />`
+        <input
+          type="text"
+          maxlength="220"
+          class="kisaca"
+          placeholder="Kısaca Etkinliği Anlat( Max. 220 Karakter )"
+        />
+        <input
+          type="text"
+          class="inputdesc"
+          placeholder="Etkinliği Anlat ( Limit Yok )"
+        />
+        <input
+          type="text"
+          class="inputgps"
+          placeholder="GPS Lokasyonu Belirtin 25,54,199 "
+        />
+        <input
+          type="text"
+          class="etkinsaati"
+          placeholder="Etkinlik Saati (21:50)"
+        />
+        <input
+          type="text"
+          class="etkingunu"
+          placeholder="Etkinlik Günü (30.04.2022)"
+        />
+        <input
+          type="text"
+          class="etkinorganizator"
+          placeholder="Etkinliği Düzenleyenler (Kajudge & Poyraz)"
+        />
+        <div class="vertline"></div>
+        <h2 class="ongoru">Böyle Gözükecek:</h2>
+        <div class="preview">
+          <div class="fulldiv">
+            <h2 class="etkinliknaam">Etkinlik Detayları</h2>
+
+            <div class="ongorubg"></div>
+            <div class="leftsidetext">
+              <h2 class="ornetknamm">Örnek Etkinlik</h2>
+              <div class="ptextdivv">
+                <p class="desc smalle ornkezri" id="uffq">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Debitis id, similique porro beatae ab nobis inventore libero?
+                  Quam, atque porro repudiandae, mollitia sequi quae quas aut,
+                  delectus saepe aliquam et.Lorem Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Impedit magni quaerat, omnis
+                  quibusdam et maxime, vero molestiae facilis ea eligendi fugit
+                  tenetur architecto similique? Placeat architecto ut illum
+                  doloremque provident! Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Molestias omnis iste beatae, sequi eligendi
+                  aliquid doloribus sapiente. Autem, ea magnam at delectus
+                  dolores illo tempore neque sunt consectetur adipisci omnis.
+                </p>
+              </div>
+              <h2 class="ornekzaman smalle">25.04.2025</h2>
+              <h2 class="ornekorganisator smalle" id="oaef">
+                kajudge#6126 & poyraz#8455
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <button class="eventiartikekle markgps">Etkinlik Ekle</button>
+      </div>
+      <button class="add"><i class="fa-solid fa-plus"></i></button>
+      <div class="navigation">
+        <button class="homebutton">
+          <img src="./img/logo.png" alt="" class="logo" />
+        </button>
+        <h2 class="playername">poyraz#8455</h2>
+        <img src="./img/pf.jpg" alt="" class="propic" />
+      </div>
+    </div>
+    <script src="./script.js" type="text/javascript"></script>
+  </body>
+</html>
